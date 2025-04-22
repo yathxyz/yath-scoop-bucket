@@ -1,0 +1,18 @@
+{
+    "version": "v0.1.871612270",
+    "description": "Simple binary that makes windows toast notifications.",
+    "homepage": "https://github.com/stuartleeks/wsl-notify-send",
+    "license": "MIT",
+    "notes": "Use something like notify-send() { wsl-notify-send.exe --category $WSL_DISTRO_NAME <your arg here>; }. Just see the homepage for more details.",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/stuartleeks/wsl-notify-send/releases/download/v0.1.871612270/wsl-notify-send_windows_amd64.zip",
+            "hash": "8531436fd005844aca9948d68b9e4e40df56645a9eade91f47027cdd4d0a1b0e"
+        },
+        "32bit": {
+            "url": "https://github.com/stuartleeks/wsl-notify-send/releases/download/v0.1.871612270/wsl-notify-send_windows_386.zip",
+            "hash": "767caa27eb32ebf8974777800623a9c31b4a5547dc82efb290b8bf58d18b1a67"
+        }
+    },
+    "bin": "wsl-notify-send.exe"
+}
